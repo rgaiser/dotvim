@@ -400,14 +400,14 @@ vmap <D-[> <gv
 vmap <D-]> >gv
 
 " disable  
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
+"nnoremap <up> <nop>
+"nnoremap <down> <nop>
+"nnoremap <left> <nop>
+"nnoremap <right> <nop>
+"inoremap <up> <nop>
+"inoremap <down> <nop>
+"inoremap <left> <nop>
+"inoremap <right> <nop>
 " -- Make C-e and C-y scroll faster
 nnoremap <C-e> 5<C-e>
 nnoremap <C-y> 5<C-y>
@@ -428,7 +428,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-imap <S-l> <Space>=><Space>
+imap <C-l> <Space>=><Space>
 
 " save on lost focus 
 au FocusLost * :wa
