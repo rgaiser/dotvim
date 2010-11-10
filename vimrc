@@ -276,9 +276,9 @@ if has("gui_running")
 "        colorscheme lucius
         colorscheme zmrok
         set guitablabel=%M%t
-        set lines=50
+        set lines=40
         set columns=100
-        set guifont=Bitstream\ Vera\ Sans\ Mono\ 11.
+        set guifont=Bitstream\ Vera\ Sans\ Mono\ 12
     endif
 
     if has("gui_mac") || has("gui_macvim")
